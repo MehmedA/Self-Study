@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Daimler CS";
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 1.6rem 8rem ;
+    border-bottom: 0.1rem solid rgb(51,51,51);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.head1 {
+    display: flex;
+    align-items: flex-end ;
+    gap: 5rem;
+    font-size: 2rem;
+    
+}
+
+.head2 {
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+}
+
+.inp{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(38,38,38);
+    border-radius: 0.2rem;
+    color: white;
+}
+
+input {
+    height: 4rem;
+    border: none;
+    outline: none;
+    background-color: rgb(38,38,38);
+    color: white;
+    width: 20rem;
+}
+
+.search {
+    color: white;
+    border-left: 0.05rem solid rgb(51,51,51);
+    padding: 1rem ;
+    width: 4rem;
+    
+    
+}
+
+.icon {
+width: 2rem;
+max-width: 2rem;
+display: flex;
+/* padding: 1rem; */
+
+
+    
+}
+
+.icon:hover {
+    background-color: rgb(38,38,38);
+}
+
+
+@import url(//db.onlinewebfonts.com/c/23fe921c6f711d75677bd6b351ac9418?family=Daimler+CS);
